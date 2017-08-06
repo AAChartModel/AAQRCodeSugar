@@ -15,6 +15,7 @@
 		643DE3901F3710720013A6B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643DE38E1F3710720013A6B2 /* LaunchScreen.storyboard */; };
 		643DE39B1F3710720013A6B2 /* AAQRCodeSugarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643DE39A1F3710720013A6B2 /* AAQRCodeSugarDemoTests.m */; };
 		643DE3A61F3710730013A6B2 /* AAQRCodeSugarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 643DE3A51F3710730013A6B2 /* AAQRCodeSugarDemoUITests.m */; };
+		643DE3B51F377DB00013A6B2 /* AAQRCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 643DE3B41F377DB00013A6B2 /* AAQRCodeModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		643DE3A11F3710730013A6B2 /* AAQRCodeSugarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AAQRCodeSugarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		643DE3A51F3710730013A6B2 /* AAQRCodeSugarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAQRCodeSugarDemoUITests.m; sourceTree = "<group>"; };
 		643DE3A71F3710730013A6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		643DE3B31F377DB00013A6B2 /* AAQRCodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAQRCodeModel.h; sourceTree = "<group>"; };
+		643DE3B41F377DB00013A6B2 /* AAQRCodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAQRCodeModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				643DE3841F3710720013A6B2 /* AppDelegate.m */,
 				643DE3861F3710720013A6B2 /* ViewController.h */,
 				643DE3871F3710720013A6B2 /* ViewController.m */,
+				643DE3B31F377DB00013A6B2 /* AAQRCodeModel.h */,
+				643DE3B41F377DB00013A6B2 /* AAQRCodeModel.m */,
 				643DE3891F3710720013A6B2 /* Main.storyboard */,
 				643DE38C1F3710720013A6B2 /* Assets.xcassets */,
 				643DE38E1F3710720013A6B2 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				643DE3881F3710720013A6B2 /* ViewController.m in Sources */,
 				643DE3851F3710720013A6B2 /* AppDelegate.m in Sources */,
 				643DE3821F3710720013A6B2 /* main.m in Sources */,
+				643DE3B51F377DB00013A6B2 /* AAQRCodeModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
