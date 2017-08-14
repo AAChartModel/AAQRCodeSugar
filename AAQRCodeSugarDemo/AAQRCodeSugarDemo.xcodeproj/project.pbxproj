@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		277851E91F41BFFD009657B0 /* AAImageMosaic.m in Sources */ = {isa = PBXBuildFile; fileRef = 277851E81F41BFFD009657B0 /* AAImageMosaic.m */; };
 		643DE3821F3710720013A6B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 643DE3811F3710720013A6B2 /* main.m */; };
 		643DE3851F3710720013A6B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 643DE3841F3710720013A6B2 /* AppDelegate.m */; };
 		643DE3881F3710720013A6B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643DE3871F3710720013A6B2 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		277851E71F41BFFD009657B0 /* AAImageMosaic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAImageMosaic.h; sourceTree = "<group>"; };
+		277851E81F41BFFD009657B0 /* AAImageMosaic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAImageMosaic.m; sourceTree = "<group>"; };
 		643DE37D1F3710720013A6B2 /* AAQRCodeSugarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AAQRCodeSugarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		643DE3811F3710720013A6B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		643DE3831F3710720013A6B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				643DE3841F3710720013A6B2 /* AppDelegate.m */,
 				643DE3861F3710720013A6B2 /* ViewController.h */,
 				643DE3871F3710720013A6B2 /* ViewController.m */,
+				277851E71F41BFFD009657B0 /* AAImageMosaic.h */,
+				277851E81F41BFFD009657B0 /* AAImageMosaic.m */,
 				643DE3B31F377DB00013A6B2 /* AAQRCodeModel.h */,
 				643DE3B41F377DB00013A6B2 /* AAQRCodeModel.m */,
 				643DE3891F3710720013A6B2 /* Main.storyboard */,
@@ -279,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				643DE3881F3710720013A6B2 /* ViewController.m in Sources */,
+				277851E91F41BFFD009657B0 /* AAImageMosaic.m in Sources */,
 				643DE3851F3710720013A6B2 /* AppDelegate.m in Sources */,
 				643DE3821F3710720013A6B2 /* main.m in Sources */,
 				643DE3B51F377DB00013A6B2 /* AAQRCodeModel.m in Sources */,
@@ -513,6 +519,7 @@
 				643DE3AC1F3710730013A6B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		643DE3AD1F3710730013A6B2 /* Build configuration list for PBXNativeTarget "AAQRCodeSugarDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +528,7 @@
 				643DE3AF1F3710730013A6B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		643DE3B01F3710730013A6B2 /* Build configuration list for PBXNativeTarget "AAQRCodeSugarDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +537,7 @@
 				643DE3B21F3710730013A6B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
