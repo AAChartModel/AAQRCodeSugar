@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface AAImageMosaic : NSObject
-
+//二值化
++ (UIImage *)convertToGrayscale:(UIImage*)img;
+//灰度
++ (UIImage *)grayImage:(UIImage *)source;
 @end

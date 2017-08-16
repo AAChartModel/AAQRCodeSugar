@@ -2,7 +2,7 @@
 //  AAQRCodeSugarDemoTests.m
 //  AAQRCodeSugarDemoTests
 //
-//  Created by 金银岛 on 2017/8/6.
+//  Created by An An on 2017/8/6.
 //  Copyright © 2017年 An An. All rights reserved.
 //
 

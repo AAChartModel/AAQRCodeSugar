@@ -2,12 +2,12 @@
 //  ViewController.m
 //  AAQRCodeSugarDemo
 //
-//  Created by 金银岛 on 2017/8/6.
+//  Created by An An on 2017/8/6.
 //  Copyright © 2017年 An An. All rights reserved.
 //
 
 #import "ViewController.h"
-
+#import "AAImageMosaic.h"
 @interface ViewController ()
 
 @end
@@ -16,8 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
+    UIImageView *imageView = [[UIImageView alloc]init];
+    imageView.backgroundColor = [UIColor cyanColor];
+    imageView.frame = CGRectMake(50, 100,200, 200);
+    
+//    UIImage *originalImage = [UIImage imageNamed:@"16357599.jpeg"];
+    UIImage *originalImage = [UIImage imageNamed:@"IMG_2105.JPG"];
+    UIImage *finalImage = [AAImageMosaic grayImage:originalImage];
+    imageView.image = [AAImageMosaic convertToGrayscale:finalImage];
+    
+    [self.view addSubview:imageView];
+
+ }
 
 
 - (void)didReceiveMemoryWarning {

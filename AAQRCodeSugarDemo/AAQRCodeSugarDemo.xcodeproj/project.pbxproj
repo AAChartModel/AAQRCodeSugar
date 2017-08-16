@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		277851E91F41BFFD009657B0 /* AAImageMosaic.m in Sources */ = {isa = PBXBuildFile; fileRef = 277851E81F41BFFD009657B0 /* AAImageMosaic.m */; };
+		277851EB1F427F10009657B0 /* IMG_1339.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 277851EA1F427F10009657B0 /* IMG_1339.JPG */; };
+		277851F01F4283C6009657B0 /* 16357599.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 277851EF1F4283C6009657B0 /* 16357599.jpeg */; };
+		277851F21F428452009657B0 /* IMG_2105.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 277851F11F428452009657B0 /* IMG_2105.JPG */; };
+		277851F71F42895A009657B0 /* CreatQRCodeAndBarCodeFromLeon.m in Sources */ = {isa = PBXBuildFile; fileRef = 277851F41F42895A009657B0 /* CreatQRCodeAndBarCodeFromLeon.m */; };
+		277851F81F42895A009657B0 /* UIImage+AAQRCodeSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 277851F61F42895A009657B0 /* UIImage+AAQRCodeSugar.m */; };
+		277851FB1F428E94009657B0 /* AAQRCodeComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 277851FA1F428E94009657B0 /* AAQRCodeComposer.m */; };
 		643DE3821F3710720013A6B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 643DE3811F3710720013A6B2 /* main.m */; };
 		643DE3851F3710720013A6B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 643DE3841F3710720013A6B2 /* AppDelegate.m */; };
 		643DE3881F3710720013A6B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643DE3871F3710720013A6B2 /* ViewController.m */; };
@@ -39,6 +45,15 @@
 /* Begin PBXFileReference section */
 		277851E71F41BFFD009657B0 /* AAImageMosaic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAImageMosaic.h; sourceTree = "<group>"; };
 		277851E81F41BFFD009657B0 /* AAImageMosaic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAImageMosaic.m; sourceTree = "<group>"; };
+		277851EA1F427F10009657B0 /* IMG_1339.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1339.JPG; sourceTree = "<group>"; };
+		277851EF1F4283C6009657B0 /* 16357599.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16357599.jpeg; sourceTree = "<group>"; };
+		277851F11F428452009657B0 /* IMG_2105.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2105.JPG; sourceTree = "<group>"; };
+		277851F31F42895A009657B0 /* CreatQRCodeAndBarCodeFromLeon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatQRCodeAndBarCodeFromLeon.h; sourceTree = "<group>"; };
+		277851F41F42895A009657B0 /* CreatQRCodeAndBarCodeFromLeon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatQRCodeAndBarCodeFromLeon.m; sourceTree = "<group>"; };
+		277851F51F42895A009657B0 /* UIImage+AAQRCodeSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AAQRCodeSugar.h"; sourceTree = "<group>"; };
+		277851F61F42895A009657B0 /* UIImage+AAQRCodeSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AAQRCodeSugar.m"; sourceTree = "<group>"; };
+		277851F91F428E94009657B0 /* AAQRCodeComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAQRCodeComposer.h; sourceTree = "<group>"; };
+		277851FA1F428E94009657B0 /* AAQRCodeComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAQRCodeComposer.m; sourceTree = "<group>"; };
 		643DE37D1F3710720013A6B2 /* AAQRCodeSugarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AAQRCodeSugarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		643DE3811F3710720013A6B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		643DE3831F3710720013A6B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,12 +124,21 @@
 			children = (
 				643DE3831F3710720013A6B2 /* AppDelegate.h */,
 				643DE3841F3710720013A6B2 /* AppDelegate.m */,
+				277851EA1F427F10009657B0 /* IMG_1339.JPG */,
+				277851EF1F4283C6009657B0 /* 16357599.jpeg */,
+				277851F11F428452009657B0 /* IMG_2105.JPG */,
 				643DE3861F3710720013A6B2 /* ViewController.h */,
 				643DE3871F3710720013A6B2 /* ViewController.m */,
 				277851E71F41BFFD009657B0 /* AAImageMosaic.h */,
 				277851E81F41BFFD009657B0 /* AAImageMosaic.m */,
+				277851F31F42895A009657B0 /* CreatQRCodeAndBarCodeFromLeon.h */,
+				277851F41F42895A009657B0 /* CreatQRCodeAndBarCodeFromLeon.m */,
+				277851F51F42895A009657B0 /* UIImage+AAQRCodeSugar.h */,
+				277851F61F42895A009657B0 /* UIImage+AAQRCodeSugar.m */,
 				643DE3B31F377DB00013A6B2 /* AAQRCodeModel.h */,
 				643DE3B41F377DB00013A6B2 /* AAQRCodeModel.m */,
+				277851F91F428E94009657B0 /* AAQRCodeComposer.h */,
+				277851FA1F428E94009657B0 /* AAQRCodeComposer.m */,
 				643DE3891F3710720013A6B2 /* Main.storyboard */,
 				643DE38C1F3710720013A6B2 /* Assets.xcassets */,
 				643DE38E1F3710720013A6B2 /* LaunchScreen.storyboard */,
@@ -256,9 +280,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				277851F01F4283C6009657B0 /* 16357599.jpeg in Resources */,
 				643DE3901F3710720013A6B2 /* LaunchScreen.storyboard in Resources */,
 				643DE38D1F3710720013A6B2 /* Assets.xcassets in Resources */,
 				643DE38B1F3710720013A6B2 /* Main.storyboard in Resources */,
+				277851EB1F427F10009657B0 /* IMG_1339.JPG in Resources */,
+				277851F21F428452009657B0 /* IMG_2105.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,8 +312,11 @@
 			files = (
 				643DE3881F3710720013A6B2 /* ViewController.m in Sources */,
 				277851E91F41BFFD009657B0 /* AAImageMosaic.m in Sources */,
+				277851F81F42895A009657B0 /* UIImage+AAQRCodeSugar.m in Sources */,
 				643DE3851F3710720013A6B2 /* AppDelegate.m in Sources */,
 				643DE3821F3710720013A6B2 /* main.m in Sources */,
+				277851FB1F428E94009657B0 /* AAQRCodeComposer.m in Sources */,
+				277851F71F42895A009657B0 /* CreatQRCodeAndBarCodeFromLeon.m in Sources */,
 				643DE3B51F377DB00013A6B2 /* AAQRCodeModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
