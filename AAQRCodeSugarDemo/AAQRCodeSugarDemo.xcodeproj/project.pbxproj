@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		277851E91F41BFFD009657B0 /* AAImageMosaic.m in Sources */ = {isa = PBXBuildFile; fileRef = 277851E81F41BFFD009657B0 /* AAImageMosaic.m */; };
-		277851EB1F427F10009657B0 /* IMG_1339.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 277851EA1F427F10009657B0 /* IMG_1339.JPG */; };
 		277851F01F4283C6009657B0 /* 16357599.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 277851EF1F4283C6009657B0 /* 16357599.jpeg */; };
 		277851F21F428452009657B0 /* IMG_2105.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 277851F11F428452009657B0 /* IMG_2105.JPG */; };
 		277851F71F42895A009657B0 /* CreatQRCodeAndBarCodeFromLeon.m in Sources */ = {isa = PBXBuildFile; fileRef = 277851F41F42895A009657B0 /* CreatQRCodeAndBarCodeFromLeon.m */; };
@@ -45,7 +44,6 @@
 /* Begin PBXFileReference section */
 		277851E71F41BFFD009657B0 /* AAImageMosaic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAImageMosaic.h; sourceTree = "<group>"; };
 		277851E81F41BFFD009657B0 /* AAImageMosaic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAImageMosaic.m; sourceTree = "<group>"; };
-		277851EA1F427F10009657B0 /* IMG_1339.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1339.JPG; sourceTree = "<group>"; };
 		277851EF1F4283C6009657B0 /* 16357599.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16357599.jpeg; sourceTree = "<group>"; };
 		277851F11F428452009657B0 /* IMG_2105.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2105.JPG; sourceTree = "<group>"; };
 		277851F31F42895A009657B0 /* CreatQRCodeAndBarCodeFromLeon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatQRCodeAndBarCodeFromLeon.h; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 			children = (
 				643DE3831F3710720013A6B2 /* AppDelegate.h */,
 				643DE3841F3710720013A6B2 /* AppDelegate.m */,
-				277851EA1F427F10009657B0 /* IMG_1339.JPG */,
 				277851EF1F4283C6009657B0 /* 16357599.jpeg */,
 				277851F11F428452009657B0 /* IMG_2105.JPG */,
 				643DE3861F3710720013A6B2 /* ViewController.h */,
@@ -284,7 +281,6 @@
 				643DE3901F3710720013A6B2 /* LaunchScreen.storyboard in Resources */,
 				643DE38D1F3710720013A6B2 /* Assets.xcassets in Resources */,
 				643DE38B1F3710720013A6B2 /* Main.storyboard in Resources */,
-				277851EB1F427F10009657B0 /* IMG_1339.JPG in Resources */,
 				277851F21F428452009657B0 /* IMG_2105.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
