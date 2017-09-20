@@ -97,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27C301571F71140400C1E460 /* AAQRCodeSugar */ = {
+			isa = PBXGroup;
+			children = (
+				277851E71F41BFFD009657B0 /* AAImageMosaic.h */,
+				277851E81F41BFFD009657B0 /* AAImageMosaic.m */,
+				277851F31F42895A009657B0 /* CreatQRCodeAndBarCodeFromLeon.h */,
+				277851F41F42895A009657B0 /* CreatQRCodeAndBarCodeFromLeon.m */,
+				277851F51F42895A009657B0 /* UIImage+AAQRCodeSugar.h */,
+				277851F61F42895A009657B0 /* UIImage+AAQRCodeSugar.m */,
+				643DE3B31F377DB00013A6B2 /* AAQRCodeModel.h */,
+				643DE3B41F377DB00013A6B2 /* AAQRCodeModel.m */,
+				277851F91F428E94009657B0 /* AAQRCodeComposer.h */,
+				277851FA1F428E94009657B0 /* AAQRCodeComposer.m */,
+			);
+			name = AAQRCodeSugar;
+			sourceTree = "<group>";
+		};
 		643DE3741F3710720013A6B2 = {
 			isa = PBXGroup;
 			children = (
@@ -120,24 +137,15 @@
 		643DE37F1F3710720013A6B2 /* AAQRCodeSugarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				27C301571F71140400C1E460 /* AAQRCodeSugar */,
 				643DE3831F3710720013A6B2 /* AppDelegate.h */,
 				643DE3841F3710720013A6B2 /* AppDelegate.m */,
-				277851EF1F4283C6009657B0 /* 16357599.jpeg */,
-				277851F11F428452009657B0 /* IMG_2105.JPG */,
 				643DE3861F3710720013A6B2 /* ViewController.h */,
 				643DE3871F3710720013A6B2 /* ViewController.m */,
-				277851E71F41BFFD009657B0 /* AAImageMosaic.h */,
-				277851E81F41BFFD009657B0 /* AAImageMosaic.m */,
-				277851F31F42895A009657B0 /* CreatQRCodeAndBarCodeFromLeon.h */,
-				277851F41F42895A009657B0 /* CreatQRCodeAndBarCodeFromLeon.m */,
-				277851F51F42895A009657B0 /* UIImage+AAQRCodeSugar.h */,
-				277851F61F42895A009657B0 /* UIImage+AAQRCodeSugar.m */,
-				643DE3B31F377DB00013A6B2 /* AAQRCodeModel.h */,
-				643DE3B41F377DB00013A6B2 /* AAQRCodeModel.m */,
-				277851F91F428E94009657B0 /* AAQRCodeComposer.h */,
-				277851FA1F428E94009657B0 /* AAQRCodeComposer.m */,
 				643DE3891F3710720013A6B2 /* Main.storyboard */,
 				643DE38C1F3710720013A6B2 /* Assets.xcassets */,
+				277851EF1F4283C6009657B0 /* 16357599.jpeg */,
+				277851F11F428452009657B0 /* IMG_2105.JPG */,
 				643DE38E1F3710720013A6B2 /* LaunchScreen.storyboard */,
 				643DE3911F3710720013A6B2 /* Info.plist */,
 				643DE3801F3710720013A6B2 /* Supporting Files */,
